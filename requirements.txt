@@ -1,0 +1,22 @@
+# Firebase and Cloud Functions
+firebase-functions
+firebase-admin
+
+# LangChain and AI Libraries
+langchain
+langchain-community
+langchain-openai
+
+# Vector Store
+chromadb
+
+# Web Search
+google-search-results
+
+# OpenAI
+openai
+
+# Utilities
+python-dotenv 
+Flask==3.0.0
+gunicorn==21.2.0

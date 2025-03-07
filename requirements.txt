@@ -5,10 +5,10 @@ firebase-admin
 # LangChain and AI Libraries
 langchain
 langchain-community
-langchain-openai
-
+langchain-openai 
+langchain-google-genai
 # Vector Store
-chromadb
+google-cloud-firestore
 
 # Web Search
 google-search-results
@@ -17,13 +17,19 @@ google-search-results
 openai
 
 # Utilities
-python-dotenv 
+python-dotenv
 
 # Web Framework (compatible with functions-framework)
-Flask==2.2.3
+Flask>=2.2.3
 
 # Gunicorn (compatible with functions-framework)
 gunicorn==20.1.0
 
 # Functions Framework for Cloud Functions
 functions-framework==3.1.0
+
+# Werkzeug
+Werkzeug>=2.2.2
+
+# Google APIs
+google-cloud-aiplatform

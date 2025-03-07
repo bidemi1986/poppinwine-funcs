@@ -1,0 +1,1 @@
+gunicorn --bind :$PORT main:app
